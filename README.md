@@ -12,6 +12,17 @@
 6. Extract mods `rsync -r ~/starbound-sessions/mods ~/starbound/starbound_1.4.4_linux`
 7. Open firewall `ufw allow 21025`
 8. Start server:
+    * `screen -S starbound`
     * `cd ~/starbound/starbound_1.4.4_linux/linux/`
     * `chmod +x starbound_server`
     * `./starbound_server`
+9. Detach
+    * `ctrl a`
+    * `d`
+10. Attach
+    * `screen -r starbound`
+
+# Spinning down 
+1. Copy universe and config to repo
+    * `cp -R ~/starbound/starbound_1.4.4_linux/storage/universe ~/starbound-sessions/storage`
+    * `cp ~/starbound/starbound_1.4.4_linux/storage/starbound_server.config ~/starbound-sessions/storage`
