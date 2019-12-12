@@ -7,4 +7,5 @@
 3. Unpack
     * `apt-get install unzip`
     * `unzip starbound_1.4.4_linux.zip -d starbound`
-3. git clone https://github.com/Lisser/starbound-sessions.git
+4. Clonse universe `git clone https://github.com/Lisser/starbound-sessions.git`
+5. Extract universe `rsync -r ~/starbound-sessions/storage/universe ~/starbound/starbound_1.4.4_linux/assets/universe`
