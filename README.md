@@ -26,3 +26,7 @@
 1. Copy universe and config to repo
     * `cp -R ~/starbound/starbound_1.4.4_linux/storage/universe ~/starbound-sessions/storage`
     * `cp ~/starbound/starbound_1.4.4_linux/storage/starbound_server.config ~/starbound-sessions/storage`
+2. Commit and push
+
+
+## Todo: work this all out in a script, or Docker container or something! :)
