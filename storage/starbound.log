@@ -1,0 +1,114 @@
+[22:11:50.334] [Info] Root: Preparing Root...
+[22:11:50.334] [Info] Root: Done preparing Root.
+[22:11:50.339] [Info] Client Version 1.3.4 (macos x86_64) Source ID: f468c99f113f3d44bb548367da9c9a1c6f4b031d Protocol: 745
+[22:11:50.339] [Info] Root: Scanning for asset sources in directory '../assets/'
+[22:11:50.749] [Info] Root: Scanning for asset sources in directory '../mods/'
+[22:11:50.749] [Info] Root: Skipping hidden '.DS_Store' in asset directory
+[22:11:50.763] [Warn] Root: Unrecognized file in asset directory 'mods_go_here', skipping
+[22:11:50.763] [Info] Root: Detected asset source named 'base' at '../assets/packed.pak'
+[22:11:50.763] [Info] Root: Detected asset source named 'Extended GUI' at '../mods/extended_gui.pak'
+[22:11:50.764] [Info] Root: Detected asset source named 'Improved Food Descriptions' at '../mods/ImprovedFoodDescriptions_v2.0.pak'
+[22:11:50.764] [Info] Root: Detected asset source named 'Enhanced Party Interface' at '../mods/EnhancedPartyInterface.pak'
+[22:11:50.764] [Info] Root: Detected asset source named 'Food Rarity (Rarity only)' at '../mods/FoodRarity_RarityOnly.pak'
+[22:11:50.764] [Info] Root: Detected asset source named 'MMM' at '../mods/mmm.pak'
+[22:11:50.764] [Info] Root: Detected asset source named 'Weapon Stats' at '../mods/Weapon_Stats_v1.0.1.pak'
+[22:11:50.764] [Info] Root: Detected asset source named 'Improved Containers' at '../mods/improved_containers.pak'
+[22:11:50.764] [Info] Root: Detected unnamed asset source at '../assets/user'
+[22:11:50.765] [Info] Loading assets from: '../assets/packed.pak'
+[22:11:51.278] [Info] Loading assets from: '../mods/extended_gui.pak'
+[22:11:51.278] [Info] Loading assets from: '../mods/ImprovedFoodDescriptions_v2.0.pak'
+[22:11:51.279] [Info] Loading assets from: '../mods/EnhancedPartyInterface.pak'
+[22:11:51.279] [Info] Loading assets from: '../mods/FoodRarity_RarityOnly.pak'
+[22:11:51.281] [Info] Loading assets from: '../mods/mmm.pak'
+[22:11:51.281] [Info] Loading assets from: '../mods/Weapon_Stats_v1.0.1.pak'
+[22:11:51.282] [Info] Loading assets from: '../mods/improved_containers.pak'
+[22:11:51.288] [Info] Loading assets from: '../assets/user'
+[22:11:52.167] [Info] Assets digest is d05515daeb868efbcb2f35c5eaa67c7324aab17a5398fc47103a418abe89642d
+[22:11:52.167] [Info] Root: Loaded Assets in 1.82852 seconds
+[22:11:52.174] [Info] Application: Initializing SDL Video
+[22:11:52.421] [Info] Application: Initializing SDL Joystick
+[22:11:52.422] [Info] Application: Initializing SDL Sound
+[22:11:52.479] [Info] Initialized Steam platform services
+[22:11:52.482] [Error] Failed to instantiate discord core (err 26)
+[22:11:52.482] [Info] Was not able to authenticate with Discord and create all components, Discord services will be unavailable
+[22:11:52.484] [Info] Application: Creating SDL Window
+[22:11:52.571] [Info] Application: Enabling VSync with late swap tearing
+[22:11:52.571] [Info] Application: Enabling VSync late swap tearing failed, falling back to full VSync
+[22:11:52.934] [Info] Application: Opened default audio device with 44.1khz / 16 bit stereo audio, 2048 sample size buffer
+[22:11:52.941] [Info] OpenGL version: '2.1 NVIDIA-12.0.21 355.11.10.50.10.103' vendor: 'NVIDIA Corporation' renderer: 'NVIDIA GeForce GT 650M OpenGL Engine' shader: '1.20'
+[22:11:52.948] [Info] Application: initialization...
+[22:11:52.950] [Info] Root: Loaded Configuration in 0.001298 seconds
+[22:11:52.986] [Info] Application: renderer initialization...
+[22:11:52.990] [Info] detected supported OpenGL texture size 16384, using atlasNumCells 128
+[22:11:52.993] [Info] detected supported OpenGL texture size 16384, using atlasNumCells 64
+[22:11:52.995] [Info] Root: Loaded ImageMetadataDatabase in 2.00002e-06 seconds
+[22:11:53.016] [Info] Application: main update loop...
+[22:11:53.118] [Info] No subscribed user generated content
+[22:11:53.130] [Info] Root: Loaded NameGenerator in 0.0109711 seconds
+[22:11:53.243] [Info] Root: Loaded PlantDatabase in 0.112996 seconds
+[22:11:53.436] [Info] Root: Loaded ObjectDatabase in 0.316495 seconds
+[22:11:53.515] [Info] Root: Loaded ProjectileDatabase in 0.271268 seconds
+[22:11:53.574] [Info] Root: Loaded MonsterDatabase in 0.138063 seconds
+[22:11:53.577] [Info] Root: Loaded StagehandDatabase in 0.0024684 seconds
+[22:11:53.582] [Info] Root: Loaded VehicleDatabase in 0.0053027 seconds
+[22:11:53.586] [Info] Root: Loaded PlayerFactory in 0.003555 seconds
+[22:11:53.588] [Info] Root: Loaded NpcDatabase in 0.0730245 seconds
+[22:11:53.590] [Info] Root: Loaded VersioningDatabase in 0.001556 seconds
+[22:11:53.590] [Info] Root: Loaded EntityFactory in 0.0039737 seconds
+[22:11:53.634] [Info] Root: Loaded ParticleDatabase in 0.0443517 seconds
+[22:11:53.973] [Info] Root: Loaded MaterialDatabase in 0.383753 seconds
+[22:11:53.978] [Info] Root: Loaded TerrainDatabase in 0.0048124 seconds
+[22:11:54.006] [Info] Root: Loaded BiomeDatabase in 0.0275485 seconds
+[22:11:54.007] [Info] Root: Loaded LiquidsDatabase in 0.0009161 seconds
+[22:11:54.014] [Info] Root: Loaded StatusEffectDatabase in 0.0074223 seconds
+[22:11:54.181] [Info] Root: Loaded DamageDatabase in 0.166976 seconds
+[22:11:54.187] [Info] Root: Loaded EffectSourceDatabase in 0.0059597 seconds
+[22:11:54.190] [Info] Root: Loaded FunctionDatabase in 0.0030175 seconds
+[22:11:54.211] [Info] Root: Loaded TreasureDatabase in 0.0201332 seconds
+[22:11:54.456] [Info] Root: Loaded DungeonDefinitions in 0.24523 seconds
+[22:11:54.456] [Info] Root: Loaded TilesetDatabase in 1.6e-05 seconds
+[22:11:54.459] [Info] Root: Loaded StatisticsDatabase in 0.0030836 seconds
+[22:11:54.459] [Info] Root: Loaded EmoteProcessor in 0.0002209 seconds
+[22:11:54.463] [Info] Root: Loaded SpeciesDatabase in 0.0037126 seconds
+[22:11:54.477] [Info] Root: Loaded QuestTemplateDatabase in 0.0136963 seconds
+[22:11:54.478] [Info] Root: Loaded AiDatabase in 0.0009638 seconds
+[22:11:54.479] [Info] Root: Loaded TechDatabase in 0.0007287 seconds
+[22:11:54.485] [Info] Root: Loaded CodexDatabase in 0.0064296 seconds
+[22:11:54.734] [Info] Root: Loaded BehaviorDatabase in 0.248455 seconds
+[22:11:54.737] [Info] Root: Loaded DanceDatabase in 0.0029585 seconds
+[22:11:54.742] [Info] Root: Loaded SpawnTypeDatabase in 0.0049181 seconds
+[22:11:54.745] [Info] Root: Loaded RadioMessageDatabase in 0.0036327 seconds
+[22:11:55.344] [Info] Root: Writing runtime configuration to '../storage/starbound.config'
+[22:11:56.976] [Info] Root: Loaded ItemDatabase in 3.38791 seconds
+[22:11:57.206] [Info] Root: Loaded CollectionDatabase in 2.46087 seconds
+[22:11:58.170] [Info] detected supported OpenGL texture size 16384, using atlasNumCells 256
+[22:12:02.383] [Info] UniverseServer: Acquiring universe lock file
+[22:12:02.384] [Info] UniverseServer: Loading settings
+[22:12:02.386] [Info] UniverseServer: Starting UniverseServer with UUID: bd28bfe7a54433a555ae50cd866b4288
+[22:12:02.397] [Info] UniverseServer: Logged in player 'Jin' locally
+[22:12:02.397] [Info] UniverseServer: Logged in account '<anonymous>' as player 'Jin' from address local
+[22:12:02.398] [Info] UniverseServer: Loading system world (-4588039, 541558238, 53611337) from disk storage
+[22:12:02.403] [Info] UniverseClient: Joined server as client 1
+[22:12:02.430] [Info] UniverseServer: Reviving player at CelestialWorld:-4588039:541558238:53611337:6:2
+[22:12:02.430] [Info] UniverseServer: Client 'Jin' <1> (local) connected
+[22:12:02.494] [Info] UniverseServer: Loading celestial world -4588039:541558238:53611337:6:2
+[22:12:02.647] [Info] Protected dungeonIds for world set to (65524)
+[22:12:02.692] [Info] detected supported OpenGL texture size 16384, using atlasNumCells 64
+[22:12:02.692] [Info] detected supported OpenGL texture size 16384, using atlasNumCells 128
+[22:12:02.701] [Info] detected supported OpenGL texture size 16384, using atlasNumCells 256
+[22:12:02.701] [Info] detected supported OpenGL texture size 16384, using atlasNumCells 256
+[22:12:02.702] [Info] Setting steam rich presence connection as steamid_76561198125902233
+[22:12:02.714] [Error] Cannot set Steam achievement kill10poptops
+[22:12:02.800] [Info] UniverseServer: Warping player 1 to CelestialWorld:-4588039:541558238:53611337:6:2=2786.25.528
+[22:12:36.413] [Info] UniverseClient: Client disconnecting...
+[22:12:36.477] [Info] UniverseServer: Client 'Jin' <1> (local) disconnected for reason: 
+[22:12:36.477] [Info] UniverseServer: Stopping idle world CelestialWorld:-4588039:541558238:53611337:6:2
+[22:12:36.477] [Info] Client received world stop packet, leaving: Removed
+[22:12:36.814] [Info] UniverseServer: Stopping UniverseServer
+[22:12:36.818] [Info] Clearing steam rich presence connection
+[22:12:53.286] [Info] Application: quit requested
+[22:12:53.286] [Info] Application: quitting...
+[22:12:53.286] [Info] Application: shutdown...
+[22:12:53.467] [Info] Root: Shutting down Root
+[22:12:53.684] [Info] Application: Destroying SDL Window
+[22:12:53.689] [Info] Application: stopped gracefully
