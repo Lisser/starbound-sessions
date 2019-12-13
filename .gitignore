@@ -8,3 +8,7 @@ win64
 tiled
 # Starbound files that should not be checked in.
 mods/mods_go_here
+# Ephemeral files caused by running Starbound can be ignored for now.
+storage/universe/universe.dat
+storage/universe/universe.lock
+storage/starbound_server.log*
