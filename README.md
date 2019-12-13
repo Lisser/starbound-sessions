@@ -25,6 +25,17 @@
 10. Attach
     * `screen -r starbound`
 
+## All the commands at once
+Once you are in the directory with the ZIP archive, and have both `bsdtar` and `git` available on your path, the following should do all of the directory setup described above:
+```sh
+mkdir starbound && bsdtar --strip-components=1 -C starbound -xf starbound_1.4.4_linux.zip
+cd starbound
+git init --quiet
+git remote add origin git@github.com:Lisser/starbound-sessions.git
+git pull --quiet --depth=1 origin master
+git branch --quiet --set-upstream-to origin/master
+```
+
 # Spinning down 
 1. Inside the `starbound` directory, commit all changes and push to this repository:
     * `git add -A`
