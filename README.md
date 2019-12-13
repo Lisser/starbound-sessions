@@ -6,13 +6,13 @@
     * `scp -r ~/downloads/starbound_1.4.4_linux.zip root@<ip-address>:~/`
 3. Unpack
     * `apt-get install bsdtar`
-    * `mkdir starbound && bsdtar --strip-components=1 -C starbound -xvf starbound_1.4.4_linux.zip`
+    * `mkdir starbound && bsdtar --strip-components=1 -C starbound -xf starbound_1.4.4_linux.zip`
 4. Load this repository on top of the unpacked zip
     * Move into the directory `cd starbound`
-    * Initiate git `git init`
+    * Initiate git `git init --quiet`
     * Add this repository as a remote `git remote add origin git@github.com:Lisser/starbound-sessions.git`
-    * Grab the latest commit from the remote `git pull --depth=1 origin master`
-    * Let the new local branch track the remote master, so we can push changes back `git branch --set-upstream-to origin/master`
+    * Grab the latest commit from the remote `git pull --quiet --depth=1 origin master`
+    * Let the new local branch track the remote master, so we can push changes back `git branch --quiet --set-upstream-to origin/master`
 7. Open firewall `ufw allow 21025`
 8. Start server:
     * `screen -S starbound`
