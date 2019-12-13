@@ -7,9 +7,13 @@
 3. Unpack
     * `apt-get install unzip`
     * `unzip starbound_1.4.4_linux.zip -d starbound`
-4. Clone universe & mods `git clone https://github.com/Lisser/starbound-sessions.git`
-5. Extract universe `rsync -r ~/starbound-sessions/storage/universe ~/starbound/starbound_1.4.4_linux/storage/`
-6. Extract mods `rsync -r ~/starbound-sessions/mods ~/starbound/starbound_1.4.4_linux`
+4. Load this repository on top of the unpacked zip
+    * Move into the directory `cd starbound`
+    * Initiate git `git init`
+    * Add this repository as a remote `git remote add origin git@github.com:Lisser/starbound-sessions.git`
+    * Make sure the remote is known `git fetch`
+    * Merge this repository’s master into the newly initiated repo `git merge origin/master`
+    * Set up the current local branch to be the remote master, so we can push changes back `git branch --set-upstream-to origin/master`
 7. Open firewall `ufw allow 21025`
 8. Start server:
     * `screen -S starbound`
@@ -23,10 +27,12 @@
     * `screen -r starbound`
 
 # Spinning down 
-1. Copy universe and config to repo
-    * `cp -R ~/starbound/starbound_1.4.4_linux/storage/universe ~/starbound-sessions/storage`
-    * `cp ~/starbound/starbound_1.4.4_linux/storage/starbound_server.config ~/starbound-sessions/storage`
-2. Commit and push
+1. Inside the `starbound` directory, commit all changes and push to this repository:
+    * `git add -A`
+    * `git commit -m "chore(save): data from 2019-12-12"` (change the date!)
+    * `git push`
+
+Note that you must have push access to this repository to spin down!
 
 
 ## Todo: work this all out in a script, or Docker container or something! :)
