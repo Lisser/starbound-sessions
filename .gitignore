@@ -2,7 +2,9 @@
 assets
 doc
 linux
+osx
+win32
+win64
 tiled
 # Starbound files that should not be checked in.
 mods/mods_go_here
-
