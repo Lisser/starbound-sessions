@@ -1,0 +1,8 @@
+# Starbound folders that should not be checked in.
+assets
+doc
+linux
+tiled
+# Starbound files that should not be checked in.
+mods/mods_go_here
+
