@@ -11,9 +11,8 @@
     * Move into the directory `cd starbound`
     * Initiate git `git init`
     * Add this repository as a remote `git remote add origin git@github.com:Lisser/starbound-sessions.git`
-    * Make sure the remote is known `git fetch`
-    * Merge this repository’s master into the newly initiated repo `git merge origin/master`
-    * Set up the current local branch to be the remote master, so we can push changes back `git branch --set-upstream-to origin/master`
+    * Grab the latest commit from the remote `git pull --depth=1 origin master`
+    * Let the new local branch track the remote master, so we can push changes back `git branch --set-upstream-to origin/master`
 7. Open firewall `ufw allow 21025`
 8. Start server:
     * `screen -S starbound`
