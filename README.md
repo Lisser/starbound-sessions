@@ -5,8 +5,8 @@
     * Push binary to server with:
     * `scp -r ~/downloads/starbound_1.4.4_linux.zip root@<ip-address>:~/`
 3. Unpack
-    * `apt-get install unzip`
-    * `unzip starbound_1.4.4_linux.zip -d starbound`
+    * `apt-get install bsdtar`
+    * `mkdir starbound && bsdtar --strip-components=1 -C starbound -xvf starbound_1.4.4_linux.zip`
 4. Load this repository on top of the unpacked zip
     * Move into the directory `cd starbound`
     * Initiate git `git init`
