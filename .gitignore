@@ -12,3 +12,4 @@ mods/mods_go_here
 storage/universe/universe.dat
 storage/universe/universe.lock
 storage/starbound_server.log*
+.DS_Store
